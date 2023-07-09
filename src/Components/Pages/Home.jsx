@@ -1,5 +1,5 @@
 import React from "react";
-import LeftSide from "../LeftSidebar/LeftSide";
+// import LeftSide from "../LeftSidebar/LeftSide";
 import CardSection from "../Main/CardSection";
 import Navbar from "../Navbar/Navbar";
 import RightSide from "../RightSidebar/RightSide";
@@ -13,7 +13,7 @@ const Home = () => {
       </div>
       <div className="flex bg-gray-100">
         <div className="flex-auto w-[20%] fixed top-12">
-          <LeftSide></LeftSide>
+          {/* <LeftSide></LeftSide> */}
         </div>
         <div className="flex-auto w-[60%] absolute left-[20%] top-14 bg-gray-100 rounded-xl">
           <div className="w-[80%] mx-auto">
